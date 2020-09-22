@@ -7,3 +7,8 @@ if __name__ == '__main__':
     topology.append(1)
     print(topology)
     myNet = Net(topology)
+    inputVals = [1,2,3,4]
+    myNet.feedForward(inputVals)
+
+    result = myNet.getReseults()
+    print(result)
